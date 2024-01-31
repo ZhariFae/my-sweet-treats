@@ -1,6 +1,6 @@
 # ITS121L - BM7
 # Georgia
-My Sweet Treats project is a professional website for a food establishment that serves seasonal global cuisine. The website is built using HTML, CSS, and JavaScript, and is designed to be responsive and accessible.
+My Sweet Treats project is a website for a food establishment that serves cookies. The website is built using HTML, CSS, and JavaScript, and is designed to be responsive and accessible.
 
 The website consists of a minimum of 4 pages, including Home, About, Services, Menu, Careers, and Contact. The project includes various features such as links, lists, HTML layouts, image maps, tables, forms, animated images, sliding windows/images, drop-down navigation menus, pop-up images (lightbox), CSS3 features, and Bootstrap framework.
 
