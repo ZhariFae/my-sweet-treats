@@ -1,0 +1,97 @@
+menu {
+    background-color: #FFF0F3;
+    padding: 10rem 0 12rem 0;
+  }
+  .menu .row {
+    padding: 0 0 10rem 0;
+  }
+  .menu .title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  @media (max-width: 575.98px) {
+    .menu .title h2 {
+      font-size: 1.5rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .menu .menu-content .nav {
+      justify-content: space-between;
+      height: 43rem;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .menu .menu-content .nav {
+      height: auto !important;
+      justify-content: center;
+    }
+  }
+  .menu .product {
+    background-color: #fff;
+    padding-bottom: 0.5rem;
+    border: 1px solid #590D22;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 1;
+  }
+  .menu .product::before {
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #590D22;
+    border-top: none;
+    border-left: none;
+    background-color: #fff;
+    bottom: -16px;
+    left: 50%;
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+  }
+  .menu .product::after {
+    content: "";
+    position: absolute;
+  }
+  .menu .product img {
+    height: 15rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    object-fit: fill;
+  }
+  .menu .product h4 {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+  }
+  .menu .product p {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    margin: 1rem 0;
+    padding: 0 1rem;
+  }
+  .menu .product .pricing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  .menu .product .pricing .price {
+    font-size: 2.1rem;
+    padding: 0 2rem 0 0;
+  }
+  .menu .product .pricing .start i {
+    color: #C9184A;
+  }
+  .menu .product .basket {
+    background: #C9184A;
+    width: fit-content;
+    margin: 1rem auto;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .menu .product .basket i {
+    font-size: 2rem;
+  }

@@ -1,0 +1,34 @@
+.contact {
+  background-color: #FFF0F3;
+  padding: 10rem 0;
+}
+
+.contact h2 {
+  font-size: 46px;
+}
+
+.contact .left {
+  margin-bottom: 7rem;
+}
+.contact label {
+  font-size: 1.4rem;
+  cursor: auto;
+  color: #232323;
+}
+.contact input,
+.contact textarea {
+  font-size: 1.4rem;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #590D22;
+}
+.contact textarea {
+  resize: none;
+  height: 20rem;
+}
+.contact .map {
+  height: 20rem;
+}
+.contact .map iframe {
+  height: 100%;
+}

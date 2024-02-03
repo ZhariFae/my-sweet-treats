@@ -1,0 +1,39 @@
+.about {
+    padding: 6rem 0;
+  }
+.about:nth-child(odd) {
+  background-color: #FFF0F3;
+}
+.about:nth-child(even) {
+  background-color: #FFF;
+}
+
+  .about .container {
+    padding: 3rem 0 13rem 0;
+  }
+  .about .content span {
+    font-size: 1.5rem;
+    color: #C9184A;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+  }
+  .about .content h2 {
+    font-size: 3vw;
+    color: #232323;
+    font-weight: bold;
+  }
+  @media (max-width: 575.98px) {
+    .about .content h2 {
+      font-size: 6vw;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .about .content h2 {
+      font-size: 6vw;
+    }
+  }
+  .about .content p {
+    font-size: 17px;
+    color: #383433;
+    line-height: 1.7;
+  }
